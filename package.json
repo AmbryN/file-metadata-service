@@ -1,0 +1,16 @@
+{
+  "name": "metadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "AmbryN",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-busboy": "^7.0.1",
+    "express-fileupload": "^1.0.0"
+  }
+}
