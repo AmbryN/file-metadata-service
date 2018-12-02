@@ -5,7 +5,7 @@ const app = express()
 app.use(fileUpload())
 
 // Serve the form in the web directory
-app.get('/', express.static('web'))
+app.use('/', express.static('web'))
 
 // Upload a file to this route
 app.post('/api/file', (req, res, next) => {
